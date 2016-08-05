@@ -1,5 +1,5 @@
 {
-  "name": "CastleCSS",
+  "name": "castlecss",
   "version": "0.1.0",
   "description": "CastleCSS is a modulular, mobile first, upgradable SCSS framework",
   "main": "index.js",
