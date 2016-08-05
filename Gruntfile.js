@@ -14,8 +14,8 @@ module.exports = function(grunt) {
 				outputStyle: 'uncompressed'
 			},
 			files: {
-				src: '../scss/main.scss',
-				dest: '../dist/css/styles.min.css',
+				src: 'scss/main.scss',
+				dest: 'dist/css/styles.min.css',
 				ext: '.css'
 			}
 		},
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 		// PostCSS for adding prefixers and setting rem to pixels;
 		postcss: {
 			dist: {
-				src: '../dist/css/styles.min.css'
+				src: 'dist/css/styles.min.css'
 
 			},
 			options: {
@@ -45,7 +45,7 @@ module.exports = function(grunt) {
 			},
 
 			watch: {
-				files: '../scss/**/*.scss',
+				files: 'scss/**/*.scss',
 				tasks: ['sass', 'postcss'],
 				options: {
 					spawn: false,
