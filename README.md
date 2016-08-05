@@ -1,4 +1,4 @@
-# CastleCSS Core Files
+# CastleCSS
 ![CastleCSS logo @CastleCss.com](https://www.doordarius.nl/castlecss-logo-250.png)
 
 ## What is CastleCSS?
