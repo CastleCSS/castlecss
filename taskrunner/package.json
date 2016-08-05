@@ -6,8 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CastleCSS/castlecss.git"
+  },
+  "keywords": [
+    "castlecss",
+    "castle",
+    "css",
+    "scss",
+    "framework",
+    "building",
+    "blocks",
+    "modular"
+  ],
   "author": "Darius Rosendahl <darius@denieuwezaak.nl>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CastleCSS/castlecss/issues"
+  },
+  "homepage": "https://github.com/CastleCSS/castlecss#readme",
   "dependencies": {
     "castlecss-core": "^1.7.3"
   },
