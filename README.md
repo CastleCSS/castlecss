@@ -19,9 +19,9 @@ When you dó adjust the dependencies, you will lose all adjustments with an upda
 
 There are a few ways to install:
 
+- Download or clone the package (easiest way for the full package)
 - Install via [NPM](https://www.npmjs.com/): ```npm install castlecss-core```
 - Require it in your own NPMJS package
-- Download or clone the package
 
 ## Updating files
 
