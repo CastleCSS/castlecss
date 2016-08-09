@@ -1,6 +1,6 @@
 {
   "name": "castlecss",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "CastleCSS is a modulular, mobile first, upgradable SCSS framework",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "blocks",
     "modular"
   ],
-  "author": "Darius Rosendahl <darius@denieuwezaak.nl>",
+  "author": "Darius Rosendahl <darius@denieuwezaak.nl> (https://github.com/CastleCSS/castlecss/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/CastleCSS/castlecss/issues"
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/CastleCSS/castlecss#readme",
   "dependencies": {
     "castlecss-core": "^1.7.3",
-    "castlecss-buttons": "^0.3.0",
+    "castlecss-buttons": "^0.4.0",
     "castlecss-notifications": "^0.3.0"
   },
   "devDependencies": {
