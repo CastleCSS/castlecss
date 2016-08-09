@@ -24,8 +24,10 @@ There are a few ways to install:
 - Download or clone the package
 
 ## Updating files
-CastleCSS is built so it's easy to update, you can just download make it your own as long as you don't ovewrite the core files. 
 
+NOTE: Only update the dependencies so you don't overwrite your own SCSS files. If you do update the Full package you'll overwrite everything. 
+
+We recommend downloading the full package and updating the dependencies like:
 ```
 npm update castlecss-core
 npm update castlecss-buttons
