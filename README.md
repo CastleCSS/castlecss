@@ -10,6 +10,7 @@ Included in this package:
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
+- [castlecss-docs (documentation)](https://github.com/CastleCSS/castlecss-docs)
 
 ## How to install
 CastleCSS is built with easy updating in mind.
@@ -32,10 +33,11 @@ We recommend downloading the full package and updating the dependencies like:
 npm update castlecss-core
 npm update castlecss-buttons
 npm update castlecss-notifications
+npm update castlecss-docs
 ```
 
-## Documentation
-We're currently writing the documentation. Hang on tight!
+## Documentation and examples
+You can find the documentation and examples at http://www.castlecss.com and included in this package (castlecss-docs)
 
 ## Setup
 Your project should have a setup similair to this (included in the Full package):
