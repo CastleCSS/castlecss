@@ -1,6 +1,6 @@
 {
   "name": "castlecss",
-  "version": "0.1.4",
+  "version": "1.0.0",
   "description": "CastleCSS is a modulular, mobile first, upgradable SCSS framework",
   "main": "index.js",
   "scripts": {
@@ -27,8 +27,9 @@
   },
   "homepage": "https://github.com/CastleCSS/castlecss#readme",
   "dependencies": {
-    "castlecss-core": "^1.7.3",
     "castlecss-buttons": "^0.4.1",
+    "castlecss-core": "^1.7.3",
+    "castlecss-docs": "*",
     "castlecss-notifications": "^0.3.0"
   },
   "devDependencies": {
