@@ -23,7 +23,7 @@ There are a few ways to install:
 - Install via [npm](https://www.npmjs.com/): ```npm install castlecss```
 - Add it to your package.json in your own npm package
 
-When downloading or cloning CastleCSS, you have to run ```npm install``` from the directory to get the full package (core, buttons, notifications and docs). If you only need the core from CastleCSS you can skip this step.
+When downloading or cloning CastleCSS, you have to run ```npm install``` from the directory to get the full package (core, buttons, notifications and docs). 
 
 ## Updating files
 
