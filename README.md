@@ -1,12 +1,12 @@
 # CastleCSS (Full package)
-A modular, updatable, easy to use SCSS Framework
+A modular, updatable, easy to use HTML and SCSS framework.
 
 ![CastleCSS logo @CastleCss.com](https://www.doordarius.nl/castlecss-logo-250.png)
 
 ## What's included?
 Included in this package:
 - Example project setup
-- Gruntfile and task
+- Gruntfile.js and tasks
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
@@ -14,19 +14,20 @@ Included in this package:
 
 ## How to install
 CastleCSS is built with easy updating in mind.
-You can download the Full package and make adjustments as long as you don't update the dependencies (core, buttons, notifications, etc).
-
-When you dó adjust the dependencies, you will lose all adjustments with an update.
+You can download the full package and make adjustments as long as you don't update the dependencies (core, buttons, notifications and docs). When you decide to adjust the dependencies, you will lose them with the next update.
 
 There are a few ways to install:
 
-- Download or clone the package (easiest way for the full package)
-- Install via [NPM](https://www.npmjs.com/): ```npm install castlecss```
-- Require it in your own NPMJS package
+- [Download the latest release](https://github.com/CastleCSS/castlecss/archive/master.zip)
+- Clone the package ```git clone https://github.com/CastleCSS/castlecss.git```
+- Install via [npm](https://www.npmjs.com/): ```npm install castlecss```
+- Add it to your package.json in your own npm package
+
+When downloading or cloning CastleCSS, you have to run ```npm install``` from the directory to get the full package (core, buttons, notifications and docs). If you only need the core from CastleCSS you can skip this step.
 
 ## Updating files
 
-NOTE: Only update the dependencies so you don't overwrite your own SCSS files. If you do update the Full package you'll overwrite everything. 
+NOTE: Only update the dependencies so that you don't overwrite your own SCSS files. If you do update the full package you'll overwrite everything.
 
 We recommend downloading the full package and updating the dependencies like:
 ```
@@ -46,20 +47,20 @@ With this you make sure your own variables overwrite the castle-core variables a
 ```
 | Your project/
 |
-|-- scss/ 
+|-- scss/
 | |-- /* Custom project specific scss files here */
-| |-- Main.scss
+| |-- main.scss
 | |
 |-- node_modules/
-| | 
+| |
 | | /*	CastleCSS files included automatically here */
 | | castlecss-core/
 | | castlecss-buttons/
 | | castlecss-etc ;)/
 ```
 
-### Main.scss
-Your main.scss should have a setup similair to this (included in the [Full CastleCSS Package](https://github.com/CastleCSS/castlecss)):
+### main.scss
+Your main.scss should have a setup similar to this (included in the [CastleCSS (Full package)](https://github.com/CastleCSS/castlecss)):
 
 ```
 /*  castlecss variable files */
@@ -72,7 +73,7 @@ Your main.scss should have a setup similair to this (included in the [Full Castl
 @import "path/to/castlecss-core/sass/main";
 @import "path/to/castlecss-buttons/sass/variables";
 @import "path/to/castlecss-notifications/sass/variables";
- 
+
 /*  Include your own files below this line
     --------------------------------------
 */
