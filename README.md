@@ -18,12 +18,9 @@ Make sure to run ```npm install``` from your directory to install the dependenci
 If you're looking for a ready-to-go project setup, checkout [CastleCSS Boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) and simply download the .ZIP. This download is extended with a basic HTML5-template and a configuration for Grunt to easily compile and minify your Sass files.
 
 ## Updating files
-This front-end framework is easy updatable. This has the advantage that new features can quickly be included in your project, but that your adjustments made to the dependencies will be overwritten with your next update.
+This front-end framework is easy updatable. This has the advantage that new features can easily be included in your project, but that your adjustments made to the dependencies itself will be overwritten with your next update, so we won't recommend doing that.
 
-This is an easy updatable framework. This means that adjustments you made to the dependencies will be overwritten with your next update.
-NOTE: Only update the dependencies so that you don't overwrite your own SCSS files. If you do update the full package you'll overwrite everything.
-
-We recommend downloading the full package and updating the dependencies like:
+We recommend updating the dependencies as follows:
 ```
 npm update castlecss-core
 npm update castlecss-buttons
@@ -38,37 +35,52 @@ You can find the documentation and examples at http://www.castlecss.com and incl
 Your project should have a setup similar to this:
 
 ```
-| Your project/
+| Project directory/
 |
-|-- scss/
-| |-- /* Custom project specific scss files here */
-| |-- main.scss
-| |
 |-- node_modules/
+| | -- castlecss-core/
+| | -- castlecss-buttons/
+| | -- castlecss-notifications/
 | |
-| | /*	CastleCSS files included automatically here */
-| | castlecss-core/
-| | castlecss-buttons/
-| | castlecss-etc ;)/
+|-- scss/
+| |-- main.scss
+| |-- variables.scss
+| |
+|-- img/
+|-- dist/
+| |-- styles.min.css
+| |-- styles.min.map
+| |
+|-- index.html
+|-- Gruntfile.js
+|-- package.json
 ```
 
-With this you make sure your own variables overwrite the castle-core variables and your setup is still updatable.
+With this setup you make sure that your own variables overwrite the castlecss-core variables, and that your setup is still updatable without overwriting your own modifications.
 
 ### main.scss
-Your main.scss should have a setup similar to this (included in the [CastleCSS (Full package)](https://github.com/CastleCSS/castlecss)):
+Your main.scss should have the following setup:
 
 ```
-/*  castlecss variable files */
-@import "path/to/castlecss-core/sass/variables";
+/* 	CastleCSS Core variables */
+@import "node_modules/castlecss-core/sass/variables";
 
-/*  Your own variables so they overwrite the core */
+/* 	Your variables */
 @import "variables";
-/*  rest of castle files */
-@import "path/to/castlecss-core/sass/main";
-@import "path/to/castlecss-buttons/sass/variables";
-@import "path/to/castlecss-notifications/sass/variables";
 
-/*  Include your own files below this line
-    --------------------------------------
-*/
+/* 	Remaining Core files and other CastleCSS modules */
+@import "node_modules/castlecss-core/sass/main";
+@import "node_modules/castlecss-buttons/sass/main";
+@import "node_modules/castlecss-notifications/sass/main";
+
+/* Include your own files below this line
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Include your own files above this line */
+
+@import "node_modules/castlecss-core/sass/base/utility";
+@import "node_modules/castlecss-core/sass/base/utility_spacers";
 ```
