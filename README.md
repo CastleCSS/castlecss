@@ -5,7 +5,6 @@ CastleCSS is a modular, updatable, easy-to-use HTML5 and SCSS framework. It incl
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
-- [castlecss-docs (documentation)](https://github.com/CastleCSS/castlecss-docs)
 
 ## Getting Started
 There are a few ways to get started with CastleCSS. If you're setting things up all by yourself, the easiest way to install is through the npm package manager or to clone the package in your project directory.
@@ -29,7 +28,7 @@ npm update castlecss-docs
 ```
 
 ## Documentation and examples
-You can find the documentation and examples at http://www.castlecss.com and included in this package (castlecss-docs)
+You can find the documentation and examples at http://www.castlecss.com. or [Download the boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/archive/master.zip) with a ready-to-go setup.
 
 ## Setup
 Your project should have a setup similar to this:
