@@ -1,4 +1,4 @@
-# [castlecss-core](https://www.castlecss.com)
+# [CastleCSS](https://www.castlecss.com)
 CastleCSS is a modular, updatable, easy-to-use HTML5 and SCSS framework. It includes a flexible grid system, buttons, notifications, utility classes and a set of Sass mixins to make a quick start for your site or app.
 
 ## What's Included?
@@ -24,7 +24,6 @@ We recommend updating the dependencies as follows:
 npm update castlecss-core
 npm update castlecss-buttons
 npm update castlecss-notifications
-npm update castlecss-docs
 ```
 
 ## Documentation and examples
