@@ -1,7 +1,9 @@
-# [CastleCSS](https://www.castlecss.com)
+# CastleCSS
 CastleCSS is a modular, updatable, easy-to-use HTML5 and SCSS framework. It includes a flexible grid system, buttons, notifications, utility classes and a set of Sass mixins to make a quick start for your site or app.
 
 ## What's Included?
+This is a meta package with all available packages for CastleCSS:
+
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
