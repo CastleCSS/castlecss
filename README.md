@@ -29,7 +29,7 @@ npm update castlecss-notifications
 ```
 
 ## Documentation and examples
-You can find the documentation and examples at http://www.castlecss.com. or [Download the boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/archive/master.zip) with a ready-to-go setup.
+You can find the documentation and examples at http://www.castlecss.com or [Download the boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/archive/master.zip) with a ready-to-go setup.
 
 ## Setup
 Your project should have a setup similar to this:
