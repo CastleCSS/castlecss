@@ -18,6 +18,7 @@ There are a few ways to get started with CastleCSS. If you're setting things up 
 
 Make sure to run ```npm install``` from your directory to install the dependencies and start using CastleCSS.
 
+## Boilerplate
 If you're looking for a ready-to-go project setup, checkout [CastleCSS Boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) and simply download the .ZIP. This download is extended with a basic HTML5-template and a configuration for Grunt to easily compile and minify your Sass files.
 
 ## Updating files
