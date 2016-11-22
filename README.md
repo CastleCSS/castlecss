@@ -18,8 +18,15 @@ There are a few ways to get started with CastleCSS. If you're setting things up 
 
 Make sure to run ```npm install``` from your directory to install the dependencies and start using CastleCSS.
 
+### Adjusting the variables
+Because of the unique update-able setup of CastleCSS you need a seperate variable file to overwrite the default CastleCSS variables. There are a few ways to do this: 
+
+- Copy variables.scss from /node_modules/castlecss-core/sass/variables.scss into your own scss folder and include it into your main.scss
+- Copy the example from the [documentation](http://castlecss.com/variables.html) into your own variables.scss and include it into your main.scss
+- Use the [boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) which provides a variables.scss file
+
 ## Boilerplate
-If you're looking for a ready-to-go project setup, checkout [CastleCSS Boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) and simply download the .ZIP. This download is extended with a basic HTML5-template and a configuration for Grunt to easily compile and minify your Sass files.
+If you're looking for a ready-to-go project setup, check out [CastleCSS Boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) and simply download the .ZIP. This download is extended with a basic HTML5-template and a configuration for Grunt to easily compile and minify your Sass files.
 
 ## Updating files
 This front-end framework is easy updatable. This has the advantage that new features can easily be included in your project, but that your adjustments made to the dependencies itself will be overwritten with your next update, so we won't recommend doing that.
