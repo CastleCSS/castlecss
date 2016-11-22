@@ -66,15 +66,15 @@ Your main.scss should have the following setup:
 
 ```
 /* 	CastleCSS Core variables */
-@import "node_modules/castlecss-core/sass/variables";
+@import "path/to/castlecss-core/sass/variables";
 
 /* 	Your variables */
 @import "variables";
 
 /* 	Remaining Core files and other CastleCSS modules */
-@import "node_modules/castlecss-core/sass/main";
-@import "node_modules/castlecss-buttons/sass/main";
-@import "node_modules/castlecss-notifications/sass/main";
+@import "path/to/castlecss-core/sass/main";
+@import "path/to/castlecss-buttons/sass/main";
+@import "path/to/castlecss-notifications/sass/main";
 
 /* Include your own files below this line
    -------------------------------------- */
@@ -84,6 +84,6 @@ Your main.scss should have the following setup:
 /* --------------------------------------
    Include your own files above this line */
 
-@import "node_modules/castlecss-core/sass/base/utility";
-@import "node_modules/castlecss-core/sass/base/utility_spacers";
+@import "path/to/castlecss-core/sass/base/utility";
+@import "path/to/castlecss-core/sass/base/utility_spacers";
 ```
