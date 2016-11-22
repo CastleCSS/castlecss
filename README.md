@@ -21,9 +21,9 @@ Make sure to run ```npm install``` from your directory to install the dependenci
 ### Adjusting the variables
 Because of the unique update-able setup of CastleCSS you need a seperate variable file to overwrite the default CastleCSS variables. There are a few ways to do this: 
 
+- Use the [boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) which provides a variables.scss file
 - Copy variables.scss from /node_modules/castlecss-core/sass/variables.scss into your own scss folder and include it into your main.scss
 - Copy the example from the [documentation](http://castlecss.com/variables.html) into your own variables.scss and include it into your main.scss
-- Use the [boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) which provides a variables.scss file
 
 ## Boilerplate
 If you're looking for a ready-to-go project setup, check out [CastleCSS Boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) and simply download the .ZIP. This download is extended with a basic HTML5-template and a configuration for Grunt to easily compile and minify your Sass files.
