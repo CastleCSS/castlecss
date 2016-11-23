@@ -1,7 +1,7 @@
 {
   "name": "castlecss",
   "version": "1.0.0",
-  "description": "CastleCSS is a modulular, mobile first, upgradable SCSS framework",
+  "description": "CastleCSS is a modular, mobile first and upgradable SCSS framework",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,8 +28,7 @@
   "homepage": "http://www.castlecss.com",
   "dependencies": {
     "castlecss-buttons": "^0.4.1",
-    "castlecss-core": "^1.7.3",
-    "castlecss-docs": "*",
+    "castlecss-core": "^2.0.1",
     "castlecss-notifications": "^0.3.0"
   },
   "devDependencies": {
