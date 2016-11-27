@@ -1,7 +1,7 @@
 {
   "name": "castlecss",
   "version": "2.0.1",
-  "description": "CastleCSS is a modular, mobile first and upgradable SCSS framework",
+  "description": "CastleCSS is a modular, mobile first, upgradable SCSS framework. This is a meta package with all available packages for CastleCSS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
