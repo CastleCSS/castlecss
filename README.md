@@ -1,5 +1,5 @@
 # CastleCSS
-CastleCSS is a modular, updatable, easy-to-use HTML5 and SCSS framework. It includes a flexible grid system, buttons, notifications, utility classes and a set of Sass mixins to make a quick start for your site or app.
+CastleCSS is a modular, updatable, easy-to-use HTML5 and SCSS framework. It includes a flexible grid system, buttons, notifications, utility classes, icons and a set of Sass mixins to make a quick start for your site or app.
 
 ![CastleCSS logo @CastleCss.com](https://www.doordarius.nl/castlecss-logo-250.png)
 
@@ -9,11 +9,14 @@ This is a meta package with all available packages for CastleCSS:
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
+- [castlecss-icons](https://github.c
+om/CastleCSS/castlecss-icons)
 
 ## Getting Started
 There are a few ways to get started with CastleCSS. If you're setting things up all by yourself, the easiest way to install is through the npm package manager or to clone the package in your project directory.
 
-- Install with [npm](https://www.npmjs.com/): ```npm install castlecss```
+- Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
+- Install with [npm](https://www.npmjs.com/): ```npm install castlecss -S```
 - Clone the package ```git clone https://github.com/CastleCSS/castlecss.git```
 
 Make sure to run ```npm install``` from your directory to install the dependencies and start using CastleCSS.
@@ -21,7 +24,7 @@ Make sure to run ```npm install``` from your directory to install the dependenci
 ### Adjusting the variables
 Because of the unique update-able setup of CastleCSS you need a seperate variable file to overwrite the default CastleCSS variables. There are a few ways to do this: 
 
-- Use the [boilerplate](https://github.com/CastleCSS/castlecss-boilerplate/) which provides a variables.scss file
+- Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
 - Copy variables.scss from /node_modules/castlecss-core/sass/variables.scss into your own scss folder and include it into your main.scss
 - Copy the example from the [documentation](http://castlecss.com/variables.html) into your own variables.scss and include it into your main.scss
 
@@ -33,9 +36,7 @@ This front-end framework is easy updatable. This has the advantage that new feat
 
 We recommend updating the dependencies as follows:
 ```
-npm update castlecss-core
-npm update castlecss-buttons
-npm update castlecss-notifications
+npm update
 ```
 
 ## Documentation and examples
@@ -51,6 +52,7 @@ Your project should have a setup similar to this:
 | | -- castlecss-core/
 | | -- castlecss-buttons/
 | | -- castlecss-notifications/
+| | -- castlecss-icons/
 | |
 |-- scss/
 | |-- main.scss
@@ -62,7 +64,7 @@ Your project should have a setup similar to this:
 | |-- styles.min.map
 | |
 |-- index.html
-|-- Gruntfile.js
+|-- Gruntfile.js (or gulp, or whatever you want to use)
 |-- package.json
 ```
 
@@ -82,6 +84,7 @@ Your main.scss should have the following setup:
 @import "path/to/castlecss-core/sass/main";
 @import "path/to/castlecss-buttons/sass/main";
 @import "path/to/castlecss-notifications/sass/main";
+@import "path/to/castlecss-icons/sass/main";
 
 /* Include your own files below this line
    -------------------------------------- */
@@ -94,3 +97,12 @@ Your main.scss should have the following setup:
 @import "path/to/castlecss-core/sass/base/utility";
 @import "path/to/castlecss-core/sass/base/utility_spacers";
 ```
+
+
+## Roadmap
+We're currently working hard on making the CastleCSS expansions and improvements. CastleCSS is made to serve as lightweight basis for tailor made software but we do want to give you the option to install a few modules to make your life easier.
+
+Please see the [ROADMAP.MD](https://github.com/CastleCSS/castlecss/blob/master/ROADMAP.md) for our current plans for the future.
+
+## Contributing
+Want to contribute? We'd love your help, please take a look at the roadmap or submit new suggestions.
