@@ -1,6 +1,6 @@
 {
   "name": "castlecss",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "CastleCSS is a modular, mobile first, upgradable SCSS framework. This is a meta package with all available packages for CastleCSS",
   "main": "index.js",
   "scripts": {
@@ -26,10 +26,11 @@
     "url": "https://github.com/CastleCSS/castlecss/issues"
   },
   "homepage": "http://www.castlecss.com",
-  "dependencies": {
+  "devDependencies": {
     "castlecss-buttons": "^0.5.0",
-    "castlecss-core": "^2.1.0",
-    "castlecss-icons": "^1.0.0",
-    "castlecss-notifications": "^1.0.0"
+    "castlecss-core": "^2.2.0",
+    "castlecss-icons": "^1.0.2",
+    "castlecss-notifications": "^1.0.0",
+    "castlecss-breadcrumbs": "^1.0.0"
   }
 }
