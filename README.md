@@ -9,9 +9,8 @@ This is a meta package with all available packages for CastleCSS:
 - [castlecss-core](https://github.com/CastleCSS/castlecss-core)
 - [castlecss-buttons](https://github.com/CastleCSS/castlecss-buttons)
 - [castlecss-notifications](https://github.com/CastleCSS/castlecss-notifications)
-- [castlecss-icons](https://github.c
-om/CastleCSS/castlecss-icons)
-
+- [castlecss-icons](https://github.com/CastleCSS/castlecss-icons)
+- [castlecss-breadcrumbs](https://github.com/CastleCSS/castlecss-breadcrumbs)
 ## Getting Started
 There are a few ways to get started with CastleCSS. If you're setting things up all by yourself, the easiest way to install is through the npm package manager or to clone the package in your project directory.
 
@@ -22,7 +21,7 @@ There are a few ways to get started with CastleCSS. If you're setting things up 
 Make sure to run ```npm install``` from your directory to install the dependencies and start using CastleCSS.
 
 ### Adjusting the variables
-Because of the unique update-able setup of CastleCSS you need a seperate variable file to overwrite the default CastleCSS variables. There are a few ways to do this: 
+Because of the unique update-able setup of CastleCSS you need a seperate variable file to overwrite the default CastleCSS variables. There are a few ways to do this:
 
 - Download the [CastleCSS Boilerplate](https://www.github.com/CastleCSS/castlecss-boilerplate). All Packages are included + examples and project setup
 - Copy variables.scss from /node_modules/castlecss-core/sass/variables.scss into your own scss folder and include it into your main.scss
