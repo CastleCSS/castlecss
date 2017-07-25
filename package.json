@@ -28,7 +28,7 @@
   "homepage": "http://www.castlecss.com",
   "devDependencies": {
     "castlecss-buttons": "^0.5.0",
-    "castlecss-core": "^2.4.0",
+    "castlecss-core": "^2.5.0",
     "castlecss-icons": "^1.0.2",
     "castlecss-notifications": "^1.0.1",
     "castlecss-breadcrumbs": "^1.1.1"
