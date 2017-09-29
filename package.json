@@ -27,12 +27,13 @@
   },
   "homepage": "http://www.castlecss.com",
   "devDependencies": {
+  },
+  "dependencies": {
     "castlecss-buttons": "^1.0.1",
     "castlecss-core": "^2.5.0",
     "castlecss-icons": "^1.0.2",
     "castlecss-notifications": "^1.0.1",
     "castlecss-breadcrumbs": "^1.1.1",
-    "castlecss-forms": "^1.0.8"
-  },
-  "dependencies": {}
+    "castlecss-forms": "^1.0.9"
+  }
 }
