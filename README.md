@@ -12,6 +12,7 @@ This is a meta package with all available packages for CastleCSS:
 - [castlecss-icons](https://github.com/CastleCSS/castlecss-icons)
 - [castlecss-forms](https://github.com/CastleCSS/castlecss-forms)
 - [castlecss-stickers](https://github.com/CastleCSS/castlecss-stickers)
+- [castlecss-breadcrumbs](https://github.com/CastleCSS/castlecss-breadcrumbs)
 
 ## Getting Started
 There are a few ways to get started with CastleCSS. If you're setting things up all by yourself, the easiest way to install is through the npm package manager or to clone the package in your project directory.
