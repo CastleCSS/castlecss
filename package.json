@@ -1,6 +1,6 @@
 {
   "name": "castlecss",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "description": "CastleCSS is a modular, mobile first, upgradable SCSS framework. This is a meta package with all available packages for CastleCSS",
   "main": "index.js",
   "scripts": {
